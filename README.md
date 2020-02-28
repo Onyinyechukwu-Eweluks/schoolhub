@@ -1,1 +1,1 @@
-# schoolmgt
+# schoolhub
