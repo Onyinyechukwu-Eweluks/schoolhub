@@ -1,19 +1,19 @@
 import React from 'react'
 import FixedSidebar from '../../fixedComponent/FixedSidebar';
 
-function Transport() {
+function AssignTeacher() {
     return(
             <div class="dashboard-page-one">
             <FixedSidebar />
             <div class="dashboard-content-one">
                 
                 <div class="breadcrumbs-area">
-                    <h3>Transport</h3>
+                    <h3>Assign Teacher</h3>
                     <ul>
                         <li>
                             <a href="/">Home</a>
                         </li>
-                        <li>Transport</li>
+                        <li>Assign Teacher</li>
                     </ul>
                 </div>
                 
@@ -24,7 +24,7 @@ function Transport() {
                             <div class="card-body">
                                 <div class="heading-layout1">
                                     <div class="item-title">
-                                        <h3>Add New Transport</h3>
+                                        <h3>Assign Teacher</h3>
                                     </div>
                                     <div class="dropdown">
                                         <a class="dropdown-toggle" href="/" role="button" data-toggle="dropdown"
@@ -43,19 +43,19 @@ function Transport() {
                                 <form class="new-added-form">
                                     <div class="row">
                                         <div class="col-12-xxxl col-xl-4 col-sm-6 col-12 form-group">
-                                            <label>Route Name</label>
+                                            <label>Class</label>
                                             <input type="text" placeholder="" class="form-control" />
                                         </div>
                                         <div class="col-12-xxxl col-xl-4 col-sm-6 col-12 form-group">
-                                            <label>Vehicle Number</label>
+                                            <label>Subject</label>
                                             <input type="text" placeholder="" class="form-control" />
                                         </div>
                                         <div class="col-12-xxxl col-xl-4 col-sm-6 col-12 form-group">
-                                            <label>Driver Name</label>
+                                            <label>Teacher</label>
                                             <input type="text" placeholder="" class="form-control" />
                                         </div>
                                         <div class="col-12-xxxl col-xl-4 col-sm-6 col-12 form-group">
-                                            <label>License Number</label>
+                                            <label>Session</label>
                                             <input type="text" placeholder="" class="form-control" />
                                         </div>
                                         <div class="col-12-xxxl col-xl-4 col-sm-6 col-12 form-group">
@@ -77,7 +77,7 @@ function Transport() {
                             <div class="card-body">
                                 <div class="heading-layout1">
                                     <div class="item-title">
-                                        <h3>All Transport Lists</h3>
+                                        <h3>Assigned Teachers Lists</h3>
                                     </div>
                                     <div class="dropdown">
                                         <a class="dropdown-toggle" href="/" role="button" data-toggle="dropdown"
@@ -96,14 +96,14 @@ function Transport() {
                                 <form class="mg-b-20">
                                     <div class="row gutters-8">
                                         <div class="col-lg-4 col-12 form-group">
-                                            <input type="text" placeholder="Search by Route ..." class="form-control" />
+                                            <input type="text" placeholder="Search by Name ..." class="form-control" />
                                         </div>
                                         <div class="col-lg-3 col-12 form-group">
-                                            <input type="text" placeholder="Search by Car Number ..."
+                                            <input type="text" placeholder="Search Class ..."
                                                 class="form-control" />
                                         </div>
                                         <div class="col-lg-3 col-12 form-group">
-                                            <input type="text" placeholder="Search by Phone ..." class="form-control" />
+                                            <input type="text" placeholder="Search by Subject ..." class="form-control" />
                                         </div>
                                         <div class="col-lg-2 col-12 form-group">
                                             <button type="submit"
@@ -118,12 +118,12 @@ function Transport() {
                                                 <th>
                                                     <div class="form-check">
                                                         <input type="checkbox" class="form-check-input checkAll" />
-                                                        <label class="form-check-label">Route Name</label>
+                                                        <label class="form-check-label">Teacher Name</label>
                                                     </div>
                                                 </th>
-                                                <th>Vehicle No</th>
-                                                <th>Driver Name</th>
-                                                <th>Driver License</th>
+                                                <th>Class</th>
+                                                <th>Subject</th>
+                                                <th>Session</th>
                                                 <th>Contact Number</th>
                                                 <th></th>
                                             </tr>
@@ -595,4 +595,4 @@ function Transport() {
     )
 }
 
-export default Transport;
+export default AssignTeacher;

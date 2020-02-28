@@ -139,7 +139,7 @@ function FixedSidebar() {
                                                 Add Class
                                             </DropdownItem>
                                             <DropdownItem divider />
-                                            <DropdownItem tag={Link} to="/blah">
+                                            <DropdownItem tag={Link} to="/assignTeacher">
                                                 Assign Teacher
                                             </DropdownItem>
                                         </DropdownMenu>

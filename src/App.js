@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Switch } from 'react-router-dom';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
+
 // Pages
 const Dashboard = React.lazy(() => import('./components/Admin/Dashboard'))
 const FixedHeader = React.lazy(() => import('./components/fixedComponent/FixedHeader'))
@@ -19,6 +20,7 @@ const TeacherDetails = React.lazy(() => import ('./components/Admin/teachers/Tea
 const TeachersPayment = React.lazy(() => import ('./components/Admin/teachers/TeachersPayment'))
 const AddClass = React.lazy(() => import ('./components/Admin/classes/AddClass'))
 const AllClasses = React.lazy(() => import ('./components/Admin/classes/AllClasses'))
+const AssignTeacher = React.lazy(() => import ('./components/Admin/classes/AssignTeacher'))
 const AddExpenses = React.lazy(() => import ('./components/Admin/acconunt/AddExpenses'))
 const Expenses = React.lazy(() => import ('./components/Admin/acconunt/Expenses'))
 const FeesCollection = React.lazy(() => import ('./components/Admin/acconunt/FeesCollection'))
@@ -191,6 +193,10 @@ class App extends Component{
         <Route
           path = '/allClasses'
           component = {props => <AllClasses {...props} />} 
+        />
+        <Route
+          path = '/assignTeacher'
+          component = {props => <AssignTeacher {...props} />} 
         />
         {/* fees */}
         <Route
