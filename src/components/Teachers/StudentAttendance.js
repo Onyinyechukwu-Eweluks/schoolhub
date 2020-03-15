@@ -122,7 +122,24 @@ function StudentAttendance() {
                                     <table class="table bs-table table-striped table-bordered text-nowrap">
                                         <thead>
                                             <tr>
-                                                <th class="text-left">Students</th>
+                                            <th class="text-left" rowspan= '2'>Students</th>
+                                                <th colspan= '5' >Week 1</th>
+                                                <th colspan= '5'>Week 2</th>
+                                                <th colspan= '5'>Week 3</th>
+                                                <th colspan= '5'>Week 4</th>
+                                                <th colspan= '5'>Week 5</th>
+                                                <th colspan= '5'>Week 6</th>
+                                                <th colspan= '5'>Week 7</th>
+                                                <th colspan= '5'>Week 8</th>
+                                                <th colspan= '5'>Week 9</th>
+                                                <th colspan= '5'>Week 10</th>
+                                                <th colspan= '5'>Week 11</th>
+                                                <th colspan= '5'>Week 12</th>
+                                                <th colspan= '5'>Week 13</th>
+                                            </tr>
+
+                                            <tr>
+                                                
                                                 <th>1</th>
                                                 <th>2</th>
                                                 <th>3</th>
@@ -154,111 +171,50 @@ function StudentAttendance() {
                                                 <th>29</th>
                                                 <th>30</th>
                                                 <th>31</th>
+                                                <th>32</th>
+                                                <th>33</th>
+                                                <th>34</th>
+                                                <th>35</th>
+                                                <th>36</th>
+                                                <th>37</th>
+                                                <th>38</th>
+                                                <th>39</th>
+                                                <th>40</th>
+                                                <th>41</th>
+                                                <th>42</th>
+                                                <th>43</th>
+                                                <th>44</th>
+                                                <th>45</th>
+                                                <th>46</th>
+                                                <th>47</th>
+                                                <th>48</th>
+                                                <th>49</th>
+                                                <th>50</th>
+                                                <th>51</th>
+                                                <th>52</th>
+                                                <th>53</th>
+                                                <th>54</th>
+                                                <th>55</th>
+                                                <th>56</th>
+                                                <th>57</th>
+                                                <th>58</th>
+                                                <th>59</th>
+                                                <th>60</th>
+                                                <th>61</th>
+                                                <th>62</th>
+                                                <th>63</th>
+                                                <th>64</th>
+                                                <th>65</th>
+                                                <th>66</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td class="text-left">Michele Johnson</td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-times text-danger"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td>-</td>
-                                                <td><i class="fas fa-times text-danger"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-times text-danger"></i></td>
-                                                <td>-</td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-times text-danger"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td>-</td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-times text-danger"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td>-</td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-left">Richi Akon</td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-times text-danger"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td>-</td>
-                                                <td><i class="fas fa-times text-danger"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-times text-danger"></i></td>
-                                                <td>-</td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-times text-danger"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td>-</td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-times text-danger"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td>-</td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-left">Amanda Kherr</td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-times text-danger"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td>-</td>
-                                                <td><i class="fas fa-times text-danger"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-times text-danger"></i></td>
-                                                <td>-</td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-times text-danger"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td>-</td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-times text-danger"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td>-</td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td><i class="fas fa-check text-success"></i></td>
-                                                <td>-</td>
-                                            </tr>
+                                                <td>P <input type= 'checkbox' /> A <input type= 'checkbox' /> </td>
+                                                </tr>
+                                                </tbody>
+                                        {/* <tbody>
                                             <tr>
                                                 <td class="text-left">Michele Johnson</td>
                                                 <td><i class="fas fa-check text-success"></i></td>
@@ -769,7 +725,109 @@ function StudentAttendance() {
                                                 <td><i class="fas fa-check text-success"></i></td>
                                                 <td>-</td>
                                             </tr>
-                                        </tbody>
+                                            <tr>
+                                                <td class="text-left">Michele Johnson</td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-times text-danger"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td>-</td>
+                                                <td><i class="fas fa-times text-danger"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-times text-danger"></i></td>
+                                                <td>-</td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-times text-danger"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td>-</td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-times text-danger"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td>-</td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-left">Richi Akon</td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-times text-danger"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td>-</td>
+                                                <td><i class="fas fa-times text-danger"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-times text-danger"></i></td>
+                                                <td>-</td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-times text-danger"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td>-</td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-times text-danger"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td>-</td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-left">Amanda Kherr</td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-times text-danger"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td>-</td>
+                                                <td><i class="fas fa-times text-danger"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-times text-danger"></i></td>
+                                                <td>-</td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-times text-danger"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td>-</td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-times text-danger"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td>-</td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td><i class="fas fa-check text-success"></i></td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody> */}
                                     </table>
                                 </div>
                             </div>

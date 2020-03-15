@@ -47,7 +47,7 @@ function AddClass() {
                                 </div>
                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
                                     <label>Gender *</label>
-                                    <select class="select2">
+                                    <select class="select2 form-control">
                                         <option value="">Please Select</option>
                                         <option value="1">Male</option>
                                         <option value="2">Female</option>
@@ -56,7 +56,7 @@ function AddClass() {
                                 </div>
                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
                                     <label>Class</label>
-                                    <select class="select2">
+                                    <select class="select2 form-control">
                                         <option value="">Please Select</option>
                                         <option value="1">Play</option>
                                         <option value="2">Nursery</option>
@@ -69,7 +69,7 @@ function AddClass() {
                                 </div>
                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
                                     <label>Subject *</label>
-                                    <select class="select2">
+                                    <select class="select2 form-control">
                                         <option value="">Please Select*</option>
                                         <option value="1">English</option>
                                         <option value="2">Mathmethics</option>
@@ -80,7 +80,7 @@ function AddClass() {
                                 </div>
                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
                                     <label>Section *</label>
-                                    <select class="select2">
+                                    <select class="select2 form-control">
                                         <option value="">Please Select *</option>
                                         <option value="1">Pink</option>
                                         <option value="2">Blue</option>

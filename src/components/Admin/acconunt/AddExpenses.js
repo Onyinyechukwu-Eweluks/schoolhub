@@ -47,7 +47,7 @@ function AddExpenses() {
                                 </div>
                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
                                     <label>Expanse Type *</label>
-                                    <select class="select2">
+                                    <select class="select2 form-control">
                                         <option value="">Please Select</option>
                                         <option value="1">Salary</option>
                                         <option value="2">Transport</option>
@@ -70,7 +70,7 @@ function AddExpenses() {
                                 </div>
                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
                                     <label>Status</label>
-                                    <select class="select2">
+                                    <select class="select2 form-control">
                                         <option value="0">Please Select</option>
                                         <option value="1">Paid</option>
                                         <option value="2">Due</option>

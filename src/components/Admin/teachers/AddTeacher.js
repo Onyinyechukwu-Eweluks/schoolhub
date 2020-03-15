@@ -47,7 +47,7 @@ function AddTeacher() {
                                 </div>
                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
                                     <label>Gender *</label>
-                                    <select class="select2">
+                                    <select class="select2 form-control">
                                         <option value="">Please Select Gender *</option>
                                         <option value="1">Male</option>
                                         <option value="2">Female</option>
@@ -65,7 +65,7 @@ function AddTeacher() {
                                 </div>
                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
                                     <label>Blood Group *</label>
-                                    <select class="select2">
+                                    <select class="select2 form-control">
                                         <option value="">Please Select Group *</option>
                                         <option value="1">A+</option>
                                         <option value="2">A-</option>
@@ -77,7 +77,7 @@ function AddTeacher() {
                                 </div>
                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
                                     <label>Religion *</label>
-                                    <select class="select2">
+                                    <select class="select2 form-control">
                                         <option value="">Please Select Religion *</option>
                                         <option value="1">Islam</option>
                                         <option value="2">Hindu</option>
@@ -92,7 +92,7 @@ function AddTeacher() {
                                 </div>
                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
                                     <label>Class *</label>
-                                    <select class="select2">
+                                    <select class="select2 form-control">
                                         <option value="">Please Select Class *</option>
                                         <option value="1">Play</option>
                                         <option value="2">Nursery</option>
@@ -105,7 +105,7 @@ function AddTeacher() {
                                 </div>
                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
                                     <label>Section *</label>
-                                    <select class="select2">
+                                    <select class="select2 form-control">
                                         <option value="">Please Select Section *</option>
                                         <option value="1">Pink</option>
                                         <option value="2">Blue</option>
