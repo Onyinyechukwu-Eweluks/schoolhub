@@ -187,14 +187,14 @@ export const allSubject = [
         subID: "00511",
         subject: "English",
         subType: "Art",
-        class: "SSS 1-3",
+        class: "All Classes",
         classGroup: "A-I",
     },{
         id: 3,
         subID: "00512",
         subject: "Mathematics",
         subType: "Science",
-        class: "SSS 1-3",
+        class: "All Classes",
         classGroup: "G-J",
     },{
         id: 4,
